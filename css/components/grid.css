@@ -1,0 +1,28 @@
+.grid {
+  margin: 0 -80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid > * {
+  padding: 75px;
+}
+
+.section-advantages .grid > * {
+  padding: 60px;
+}
+
+.section-partners .grid > * {
+  padding: 50px;
+}
+
+

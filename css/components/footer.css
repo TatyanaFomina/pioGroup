@@ -1,0 +1,21 @@
+.footer {
+    font-size: 16px;
+}
+
+.footer a {
+    color: #462be2;
+}
+
+.footer .telegram {
+    color: #359fdd;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        text-align: center;
+    }   
+
+    .copyright {
+        padding: 5px 0;
+    }
+}

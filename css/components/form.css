@@ -1,0 +1,173 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-textarea,
+.form-input {
+  resize: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Manrope", Arial, sans-serif;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.form-hero {
+  margin: 0 -10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 650px;
+  padding: 40px 0;
+}
+
+.form-hero .form-textarea,
+.form-hero .form-input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+.form-hero .form-textarea::-webkit-input-placeholder,
+.form-hero .form-input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-hero .form-textarea::-moz-placeholder,
+.form-hero .form-input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-hero .form-textarea:-ms-input-placeholder,
+.form-hero .form-input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-hero .form-textarea::-ms-input-placeholder,
+.form-hero .form-input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-hero .form-textarea::placeholder,
+.form-hero .form-input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.form-apply {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: #23d87d;
+  padding: 40px;
+  max-width: 560px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.form-apply .form-textarea,
+.form-apply .form-input {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.form-apply .form-textarea {
+  height: 240px;
+}
+
+.form-apply .form-textarea::-webkit-input-placeholder,
+.form-apply .form-input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.form-apply .form-textarea::-moz-placeholder,
+.form-apply .form-input::-moz-placeholder {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.form-apply .form-textarea:-ms-input-placeholder,
+.form-apply .form-input:-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.form-apply .form-textarea::-ms-input-placeholder,
+.form-apply .form-input::-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.form-apply .form-textarea::placeholder,
+.form-apply .form-input::placeholder {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+input:disabled,
+.textarea:disabled {
+  background-color: transparent;
+  color: black;
+  border-color: red;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border: 1px solid #462be2;
+  border-radius: 8px;
+}
+
+.form-hero .form-controller {
+  padding: 0 10px;
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
+}
+
+.form-apply .form-controller {
+  padding: 20px 10px;
+}
+
+@media (max-width: 480px) {
+  .form-hero {
+    display: block;
+  }
+  .form-hero .form-controller {
+    padding: 20px 0;
+  }
+  .form-apply .form-textarea,
+  .form-apply .form-input {
+    font-size: 12px;
+  }
+  .form-apply .form-textarea::-webkit-input-placeholder,
+  .form-apply .form-input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .form-apply .form-textarea::-moz-placeholder,
+  .form-apply .form-input::-moz-placeholder {
+    font-size: 12px;
+  }
+  .form-apply .form-textarea:-ms-input-placeholder,
+  .form-apply .form-input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .form-apply .form-textarea::-ms-input-placeholder,
+  .form-apply .form-input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .form-apply .form-textarea::placeholder,
+  .form-apply .form-input::placeholder {
+    font-size: 12px;
+  }
+}

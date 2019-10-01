@@ -1,0 +1,41 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-features .list li::before {
+  content: "-";
+  color: #ffffff;
+  font-size: 16px;
+  display: inline;
+  left: -28px;
+  position: absolute;
+}
+
+.section-features .list li {
+  position: relative;
+}
+
+.card-list {
+  padding-left: 30px;
+}
+
+.list-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -30px;
+}
+
+.list-contacts li {
+  margin: 0 30px;
+}
+
+@media(max-width: 540px) {
+  .list-contacts {
+    display: inline-block;
+  }
+  .list-contacts li {
+    padding: 5px 0;
+  }
+}
